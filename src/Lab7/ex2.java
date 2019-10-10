@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class ex2 {
     Scanner SC = new Scanner(System.in);
-
+    int score;
     do{
-
         System.out.println("Enter your score," +
-                "and I will tell you grade:");
+                "and I will tell you g\nrade:");
 
-        int score = SC.nextInt();
+        score = SC.nextInt();
 
         if (score >= 0 && score < 50) //0-49
             System.out.println("Grade F. ");
